@@ -31,6 +31,7 @@ export default function Calculator() {
     if (e.target[9].checked) {
       totalFootprint += carbonRecycleMetal;
     }
+    totalFootprint *= 0.000453592;
     setTotalCarbonFootprint(totalFootprint)
     console.log(totalFootprint + ": totalfootprint")
   }
@@ -76,7 +77,7 @@ export default function Calculator() {
         <input required type="radio" name="recyclePaper" value="no" id="paperNo"/>
         <label htmlFor="paperNo">No</label>
         <br /><br />
-        <label htmlFor="recycleMetal">Do you recycle paper: </label><br />
+        <label htmlFor="recycleMetal">Do you recycle metal: </label><br />
         <input required type="radio" name="recycleMetal" value="yes" id="metalYes"/>
         <label htmlFor="metalYes">Yes</label><br />
         <input required type="radio" name="recycleMetal" value="no" id="metalNo"/>
@@ -84,7 +85,7 @@ export default function Calculator() {
         <br /><br />
         <button className="bg-none hover:bg-white-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-white-500 rounded">Submit</button>
       </form>:<div>
-        Your Total Carbon Footprint for this year is: {totalCarbonFootprint}
+        Your Total Carbon Footprint for this year is: <span className="font-bolder">{totalCarbonFootprint.toFixed(2)}</span> tonnes
         </div>}
     </section>
         </div>
