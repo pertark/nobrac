@@ -9,13 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gatefi/js-sdk": "^0.12.2",
+    "@noble/secp256k1": "^2.0.0",
+    "@rainbow-me/rainbowkit": "^1.0.11",
+    "@ramp-network/ramp-instant-sdk": "^4.0.4",
     "@react-three/drei": "^9.84.2",
     "@react-three/fiber": "^8.14.2",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "@types/three": "^0.156.0",
+    "@ubeswap/sdk": "^2.1.2",
+    "@wagmi/chains": "^1.8.0",
+    "@walletconnect/sign-client": "^2.10.1",
+    "@zerodev/sdk": "^4.0.19",
+    "@zerodev/wagmi": "^4.1.7",
     "autoprefixer": "10.4.16",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "ethers": "^6.7.1",
     "framer-motion": "^10.16.4",
     "next": "13.5.2",
     "next-seo": "^6.1.0",
@@ -25,6 +37,9 @@
     "react-three-fiber": "^6.0.13",
     "tailwindcss": "3.3.3",
     "three": "^0.156.1",
-    "typescript": "5.2.2"
+    "toucan-sdk": "^1.0.4-beta",
+    "typescript": "5.2.2",
+    "viem": "^1.12.1",
+    "wagmi": "^1.4.2"
   }
 }

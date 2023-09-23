@@ -3,6 +3,8 @@ import type { AppProps } from 'next/app'
 import { motion, AnimatePresence } from 'framer-motion'
 import Nav from '@/components/layout/Nav'
 import Footer from '@/components/layout/Footer'
+import ZeroDevWrapper from '@/components/ZeroDevWrapper'
+import '@rainbow-me/rainbowkit/styles.css';
 
 const variants = {
   initial: {
@@ -32,7 +34,7 @@ const variants = {
 }
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
-    <>
+    <ZeroDevWrapper>
       <Nav></Nav>
       <AnimatePresence
         mode="wait" 
@@ -43,6 +45,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
           <Footer />
         </motion.div>
       </AnimatePresence>
-    </>
+    </ZeroDevWrapper>
   )
 }
