@@ -24,7 +24,7 @@ export default function Home() {
             <br />
             Goodb ye.
           </h2>
-          <div className="ml-6 text-center">
+          <div className="ml-0 text-center">
             <Link
               className="inline-flex items-center py-3 font-semibold text-black transition duration-500 ease-in-out transform bg-transparent bg-white px-7 text-md md:mt-0 hover:text-black hover:bg-white focus:shadow-outline"
               href="/"
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=' w-[40%]'>
+        <div className='md:block hidden w-[40%]'>
           <div className='relative -right-10'>
             <Suspense>
               <Model />
