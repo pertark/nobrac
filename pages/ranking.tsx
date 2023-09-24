@@ -15,17 +15,6 @@ const GET_USERS_WITH_RETIREMENT = gql`{
   }
 }
 `;
-const top10 = [
-  "@me",
-  "@you",
-  "@pertark",
-  "@ben",
-  "@joe",
-  "@biden",
-  "@ruben",
-  "@cassy",
-  "@imposter"
-]
 export default function Rankings() {
   const { loading, error, data } = useQuery(GET_USERS_WITH_RETIREMENT, {
     client,
