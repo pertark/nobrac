@@ -84,11 +84,11 @@ export default function Buy() {
       >
          <section className="text-gray-600 body-font">
         <h2 className="pt-10 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-7xl md:text-6xl">
-          Buy Buy Buy
+          Buy Carbon Credits
         </h2>
         <br></br>
         <p className="mx-auto text-xl text-center text-p1 font-normal leading-relaxed fs521 lg:w-2/3">
-          Buy the carbon credits so that you don't feel bad about not recycling... or something.
+           By purchasing carbon credits, you are actively contributing to the reduction of greenhouse gas emissions and supporting projects that have a positive impact on the environment. These credits fund initiatives such as reforestation, renewable energy, and sustainable agriculture, which play a pivotal role in offsetting the carbon footprint of individuals and businesses. 
         </p>
         <div className="pt-12 pb-24 max-w-4xl mx-auto md:px-1 px-3 flex flex-col gap-2 content-center items-center justify-center">
           { error && <div className="text-red-500">{error.toString()} <Link href="/issues/zerodev"><span className="text-red-300 underline italic">Why is this error showing up?</span></Link></div> }
