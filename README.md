@@ -8,11 +8,11 @@ Nobrac aims to increase the demand for on-chain carbon credits by creating an ac
 
 An increase in carbon dioxide is supercharging the natural greenhouse effect, causing global temperature to rise. 
 
-This is important because that extra heat is...
-    - driving regional and seasonal temperature extremes
-    - diminishing snow cover and sea ice
-    - amplifying heavy rainfall
-    - devastating habitats for both flora and fauna
+This is important because that extra heat is... <br />
+    - driving regional and seasonal temperature extremes <br />
+    - diminishing snow cover and sea ice <br />
+    - amplifying heavy rainfall <br />
+    - devastating habitats for both flora and fauna <br />
     
 Climate change is a pressing issue, and urgent action is needed to mitigate its worst outcomes.
 
