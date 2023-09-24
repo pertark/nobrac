@@ -6,7 +6,15 @@ Nobrac aims to increase the demand for on-chain carbon credits by creating an ac
 
 ## Problem 🔎
 
-The increase in carbon dioxide is intensifying the natural greenhouse effect, resulting in a rise in global temperatures. This leads to regional and seasonal temperature extremes, diminished snow cover and sea ice, amplified heavy rainfall, and devastating habitats for flora and fauna. Climate change is a pressing issue, and urgent action is needed to mitigate its worst outcomes.
+An increase in carbon dioxide is supercharging the natural greenhouse effect, causing global temperature to rise. 
+
+This is important because that extra heat is...
+    - driving regional and seasonal temperature extremes
+    - diminishing snow cover and sea ice
+    - amplifying heavy rainfall
+    - devastating habitats for both flora and fauna
+    
+Climate change is a pressing issue, and urgent action is needed to mitigate its worst outcomes.
 
 ## Inspiration 🌟 
 
