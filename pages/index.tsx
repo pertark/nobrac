@@ -17,12 +17,13 @@ export default function Home() {
       <div className="max-w-5xl pt-12 pb-24 mx-auto flex flex-row items-center">
         <div className='relative z-10'>
           <h1 className="text-80 text-center font-4 lh-6 ld-04 font-bold text-white mb-6">
-          Change da world.
+          {/* Mint Your Way To Net-Zero */}
+          Take Carbon Out Of The Equation
           </h1>
           <h2 className="text-2xl font-4 font-semibold lh-6 ld-04 pb-11 text-gray-400 text-center">
-            my fi nal message. 
+            be a part of the change.
             <br />
-            Goodb ye.
+            {/* Goodb ye. */}
           </h2>
           <div className="ml-0 text-center">
             <Link
@@ -54,62 +55,57 @@ export default function Home() {
       </div>
       <div className="container flex flex-col items-center justify-center mx-auto">
         <img
-          className="object-cover object-center w-3/4 mb-10 border shadow-md g327"
-          alt="Placeholder Image"
-          src="./images/placeholder.png"
+          // className="object-cover object-center w-3/4 mb-10 border shadow-md g327"
+          // alt="Placeholder Image"
+          // src="./images/placeholder.png"
         ></img>
       </div>
-      <h2 className="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-7xl md:text-6xl">
-        Clean and tidy code.
+      <h2 className="pt-20 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-7xl md:text-6xl">
+        Be a Part of the Change
       </h2>
       <br></br>
       <p className="mx-auto text-xl text-center text-gray-300 font-normal leading-relaxed fs521 lg:w-2/3">
-        Here is our collection of free to use templates made with Next.js &
-        styled with Tailwind CSS.
+       We're spearheading the new era of carbon credits.
       </p>
       <div className="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3">
         <div className="ktq4">
-          <img className="w-10" src="https://nine4.app/favicon.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+          {/* <img className="w-10" src="https://nine4.app/favicon.png"></img> */}
+          <h3 className="pt-3 font-semibold text-xl text-white">
+            Accessible
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-            porttitor.
+            We allow everyday people to bypass the high entry points of
+            initial investments that currently limited to larger corportations.
           </p>
         </div>
         <div className="ktq4">
-          <img className="w-10" src="https://nine4.app/favicon.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+          {/* <img className="w-10" src="https://nine4.app/favicon.png"></img> */}
+          <h3 className="pt-3 font-semibold text-xl text-white">
+            Easy to Use
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-            porttitor.
+            Through our website, users can easy trade their currency of choice
+            to carbon credits as well as retire their carbon credits once exhausted.
           </p>
         </div>
         <div className="ktq4">
-          <img className="w-10" src="https://nine4.app/favicon.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+          {/* <img className="w-10" src="https://nine4.app/favicon.png"></img> */}
+          <h3 className="pt-3 font-semibold text-xl text-white">
+            Seamless
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-            porttitor.
+            We bridge the disconnect between systems, technologies, and platforms
+            through our interface allowing for seamless data sharing and flow of transactions.
           </p>
         </div>
         <div className="ktq4">
-          <img className="w-10" src="https://nine4.app/favicon.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+          {/* <img className="w-10" src="https://nine4.app/favicon.png"></img> */}
+          <h3 className="pt-3 font-semibold text-xl text-white">
+            User-friendly
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-            porttitor.
+            We extend the usage of carbon credits to everyone, even those who may
+            be inexperience with Web3 and Blockchain.
           </p>
         </div>
       </div>
