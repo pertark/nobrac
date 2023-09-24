@@ -66,11 +66,11 @@ Nobrac is an application that allows users to buy carbon credits and achieve car
 
 ## Website Demo Video
 
-[Link to the demo video]
+[Nobrack Demo](Link to the demo video]
 
 ## Slides Deck
 
-[https://www.canva.com/design/DAFvPWak9AQ/SDkDUAnw7NMXmJV071I93w/edit]
+[Slides Deck](https://www.canva.com/design/DAFvPWak9AQ/SDkDUAnw7NMXmJV071I93w/edit)
 
 ## Usage
 
