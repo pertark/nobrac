@@ -5,6 +5,7 @@ import Nav from '@/components/layout/Nav'
 import Footer from '@/components/layout/Footer'
 import ZeroDevWrapper from '@/components/ZeroDevWrapper'
 import '@rainbow-me/rainbowkit/styles.css';
+import Head from 'next/head'
 
 const variants = {
   initial: {
@@ -35,6 +36,10 @@ const variants = {
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <ZeroDevWrapper>
+      <Head>
+        <link rel="icon" href="/favicon.png" />
+        <title>Nobrac. - Carbon Credits for Everyone</title>
+      </Head>
       <Nav></Nav>
       <AnimatePresence
         mode="wait" 
