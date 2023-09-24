@@ -1,14 +1,28 @@
 import Image from 'next/image'
 import { Manrope } from 'next/font/google'
 import Model from '@/components/home/Model'
-import { Suspense, useState } from 'react';
+import { Suspense, useEffect, useRef, useState } from 'react';
 import Footer from '@/components/layout/Footer';
 import Link from 'next/link';
 
 const inter = Manrope({ subsets: ['latin'] })
 
+const climate_deadline = 18793440000;
 export default function Home() {
   const [email, setEmail] = useState("");
+  const seconds = useRef<HTMLHeadingElement>(null);
+  useEffect(() => {
+    if (!seconds.current) return;
+    const timer = setInterval(() => {
+      const now = new Date().getSeconds();
+      const distance = climate_deadline - now;
+      console.log(distance, now)
+
+      seconds.current.innerText = distance.toLocaleString("en-US");
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [seconds.current]);
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
@@ -109,31 +123,32 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="pt-32 pb-32 max-w-6xl mx-auto fsac4 md:px-1 px-3">
-        <div className="ktq4">
-          <img src="https://nine4.app/images/nine4-3.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+      <h2 className="pt-20 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-7xl md:text-6xl">
+        The Stats
+      </h2>
+      <div className="pt-12 pb-32 max-w-screen flex flex-row flex-wrap justify-center gap-4 md:px-1 px-3">
+        <div className="ktq4 max-w-[55%] text-right whitespace-pre-line">
+          <h3 className="pt-3 font-semibold text-7xl text-white" ref={seconds}>
+          </h3>
+          <h3 className="pt-3 font-semibold text-4xl text-white">
+            seconds until the climate deadline.
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Fusce pharetra ligula mauris, quis faucibus lectus elementum vel.
-            Nullam vehicula, libero at euismod tristique, neque ligula faucibus
-            urna, quis ultricies massa enim in nunc. Vivamus ultricies, quam ut
-            rutrum blandit, turpis massa ornare velit, in sodales tellus ex nec
-            odio.
+            The climate deadline is the point at which we can no longer reverse
+            the effects of climate change. We must pursue carbon removal and 
+            carbon neutrality as well as reduce our carbon footprint, before it's too late. 
           </p>
         </div>
-        <div className="ktq4">
-          <img src="https://nine4.app/images/nine4-3.png"></img>
-          <h3 className="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
+        <div className="ktq4 max-w-[35%] text-right">
+          <h3 className="pt-3 font-semibold text-7xl text-white">
+            19,891,392
+          </h3>
+          <h3 className="pt-3 font-semibold text-4xl text-white">
+            unretired tokens
           </h3>
           <p className="pt-2 value-text text-md text-gray-200 fkrr1">
-            Fusce pharetra ligula mauris, quis faucibus lectus elementum vel.
-            Nullam vehicula, libero at euismod tristique, neque ligula faucibus
-            urna, quis ultricies massa enim in nunc. Vivamus ultricies, quam ut
-            rutrum blandit, turpis massa ornare velit, in sodales tellus ex nec
-            odio.
+            Each token represents 1 ton of carbon dioxide removed from the
+            atmosphere. Time will not stop for us, so we must act swiftly and decisively. 
           </p>
         </div>
       </div>
