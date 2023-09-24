@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.4",
     "@gatefi/js-sdk": "^0.12.2",
     "@noble/secp256k1": "^2.0.0",
     "@rainbow-me/rainbowkit": "^1.0.11",
@@ -29,6 +30,7 @@
     "crypto-js": "^4.1.1",
     "ethers": "^6.7.1",
     "framer-motion": "^10.16.4",
+    "graphql": "^16.8.1",
     "next": "13.5.2",
     "next-seo": "^6.1.0",
     "postcss": "8.4.30",

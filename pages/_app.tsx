@@ -6,6 +6,10 @@ import Footer from '@/components/layout/Footer'
 import ZeroDevWrapper from '@/components/ZeroDevWrapper'
 import '@rainbow-me/rainbowkit/styles.css';
 import Head from 'next/head'
+import { RainbowKitProvider } from '@rainbow-me/rainbowkit'
+import { useEffect, useState } from 'react'
+import { WagmiConfig } from 'wagmi'
+import { chains, wagmiConfig } from '../providers'
 
 const variants = {
   initial: {
@@ -34,7 +38,12 @@ const variants = {
   }
 }
 export default function App({ Component, pageProps, router }: AppProps) {
+  const [isMounted, setIsMounted] = useState(false)
+  useEffect(() => setIsMounted(true), [])
   return (
+    <WagmiConfig config={wagmiConfig}>
+      <RainbowKitProvider chains={chains}>
+        
     <ZeroDevWrapper>
       <Head>
         <link rel="icon" href="/favicon.png" />
@@ -46,10 +55,12 @@ export default function App({ Component, pageProps, router }: AppProps) {
         initial={false}
       >
         <motion.div key={router.route} variants={variants} initial="initial" animate="animate" exit="exit">
-          <Component {...pageProps} />
+        {isMounted &&<Component {...pageProps} />}
           <Footer />
         </motion.div>
       </AnimatePresence>
     </ZeroDevWrapper>
+    </RainbowKitProvider>
+    </WagmiConfig>
   )
 }
