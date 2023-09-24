@@ -1,18 +1,18 @@
 # Nobrac: Enabling Accessible and Streamlined Carbon Credit Transactions
 
-## Mission
+## Mission 🧠
 
 Nobrac aims to increase the demand for on-chain carbon credits by creating an accessible and rewarding application. Our mission is to mitigate the effects of climate change by providing a platform that facilitates the process of buying carbon credits and being carbon neutral.
 
-## Problem
+## Problem 🔎
 
 The increase in carbon dioxide is intensifying the natural greenhouse effect, resulting in a rise in global temperatures. This leads to regional and seasonal temperature extremes, diminished snow cover and sea ice, amplified heavy rainfall, and devastating habitats for flora and fauna. Climate change is a pressing issue, and urgent action is needed to mitigate its worst outcomes.
 
-## Inspiration
+## Inspiration 🌟 
 
 The process for obtaining carbon credits is often long and tedious. The urgent need to limit temperature rise and achieve net-zero emissions by 2050 inspired the creation of Nobrac. We strive to simplify and streamline the carbon credit acquisition process, making it more accessible to a broader audience.
 
-## What Nobrac Does
+## What Nobrac Does 🌱
 
 Nobrac is an application that allows users to buy carbon credits and achieve carbon neutrality. It provides a universal platform for both businesses and individuals to establish themselves as carbon neutral entities.
 
