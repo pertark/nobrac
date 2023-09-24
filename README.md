@@ -80,9 +80,11 @@ To use Nobrac and contribute to fighting climate change:
 
 ## Contributors
 
-- [Your Name](link_to_your_profile)
-- [Team Member 1](link_to_profile)
-- [Team Member 2](link_to_profile)
+- Ruben Garcia <br />
+- Patrick Zhang <br />
+- Cassy Clemente <br />
+- Roehit Ranganathan <br />
+- Michelle Cai <br />
 
 ## License
 
