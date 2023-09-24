@@ -23,6 +23,8 @@ body {
   /* ;ackground-color: #000000; */
   /* background-color: #226c54; */
   background-color: #073328;
+  scroll-behavior: smooth;
+  overflow-x: hidden
 }
 
 a {
