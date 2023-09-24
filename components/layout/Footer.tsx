@@ -184,7 +184,7 @@ export default function Footer() {
                 href="/"
                 className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
               >
-                © NYU Blockchain Lab Hackathon Team 2.
+                Made with ❤️ by NYU Blockchain Lab.
               </a>
             </ul>
           </div>

@@ -20,7 +20,7 @@ export default function Home() {
     const timer = setInterval(() => {
       const now = new Date().getSeconds();
       const distance = climate_deadline - now;
-      console.log(distance, now)
+      // console.log(distance, now)
 
       seconds.current.innerText = distance.toLocaleString("en-US");
     }, 1000);
@@ -131,7 +131,7 @@ export default function Home() {
         The Stats
       </h2>
       <div className="pt-12 pb-32 max-w-screen flex flex-row flex-wrap justify-center gap-4 md:px-1 px-3">
-        <div className="ktq4 max-w-[50em] text-right whitespace-pre-line">
+        <div className="ktq4 max-w-[40em] text-right whitespace-pre-line">
           <h3 className="pt-3 font-semibold md:text-7xl text-4xl text-white" ref={seconds}>
           </h3>
           <h3 className="pt-3 font-semibold md:text-4xl text-2l text-white">
@@ -143,7 +143,7 @@ export default function Home() {
             carbon neutrality as well as reduce our carbon footprint, before it's too late. 
           </p>
         </div>
-        <div className="ktq4 max-w-[30em] text-right">
+        <div className="ktq4 max-w-[28em] text-right">
           <h3 className="pt-3 font-semibold md:text-7xl text-5xl text-white">
             19,891,392
           </h3>
